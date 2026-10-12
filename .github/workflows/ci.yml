@@ -93,5 +93,5 @@ jobs:
         run: |
           echo "Logging in to Docker Hub..."
           echo $DOCKER_TOKEN | docker login -u $DOCKER_USERNAME --password-stdin
-          echo "Pushing image to Docker Hub..."
-          docker push $DOCKER_USERNAME/devops-demo:latest
+          echo "Pushing image to Docker Hub....."
+          docker push $DOCKER_USERNAME/devops-demo:latest 
